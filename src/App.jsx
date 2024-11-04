@@ -1,17 +1,17 @@
 import Home from './routes/Home.jsx';
-import Footer from './components/Footer.jsx';
 import Banner from './components/Banner.jsx';
 import Carrossel from './components/Carrossel.jsx';
 import Formulario from './routes/Formulario.jsx';
+import Rodape from './components/Rodape.jsx';
 
 function App() {
   return (
-    <div>
+    <div className='bg-gray-300'>
       <Home />
       <Banner />
       <Carrossel />
       <Formulario />
-      <Footer />
+      <Rodape/>
     </div>
   );
 }

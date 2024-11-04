@@ -1,15 +1,21 @@
 const Home = () => {
     return (
-      <header className="flex justify-between items-center p-4 bg-gray-900 text-white">
-        <h1 className="text-2xl">OnFit</h1>
-        <nav>
-          <ul className="flex space-x-4">
-            <li><a href="#produtos">Produtos</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#contato">Contato</a></li>
-          </ul>
-        </nav>
-      </header>
+        <header class="bg-gray-800 text-white p-4">
+            <div class="container mx-auto flex justify-between items-center">
+            
+            <div class="text-2xl font-bold text-blue-500">OnFit</div>
+
+            <nav class="hidden md:flex space-x-6">
+                <a href="#" class="text-gray-300 hover:text-white transition">Home</a>
+                <a href="#" class="text-gray-300 hover:text-white transition">Produtos</a>
+                <a href="#" class="text-gray-300 hover:text-white transition">Contato</a>
+            </nav>
+        
+            
+            
+            </div>
+        </header>
+      
     );
   };
   export default Home;
