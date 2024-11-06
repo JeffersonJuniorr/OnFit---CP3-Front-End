@@ -10,4 +10,3 @@ O projeto **OnFit** é uma plataforma de e-commerce focada em moda fitness e art
 - Felipe Braunstein e Silva - RM554483
 - Jefferson Junior Alvarez Urbina - RM558497
 - Eduardo da Silva Lima - RM554804
-- Felipe do Nascimento Fernandez - RM554598
